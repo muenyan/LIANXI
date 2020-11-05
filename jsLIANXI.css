@@ -1,0 +1,22 @@
+.box-a{
+    width: 600px;
+    display: flex;
+    border: 1px solid red;
+    height: 500px;
+    margin: 0 auto;
+}
+.box-1{
+    width: 268px;
+    text-align: center;
+}
+.box-3{
+    width: 100%;
+    margin: 5px 0;
+}
+.box-2 a{
+    display: block;
+    font-size: 20px;
+   padding-left: 40px;
+    text-decoration: none;
+
+}

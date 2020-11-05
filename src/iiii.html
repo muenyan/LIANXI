@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 该用户登录成功之后。有这些菜单权限：
+    var menus = [{id:1,title: '系统管理',name: 'student'},{id:2,title: '个人中心',name: 'role'},{id:3,title: '教师管理',name:''}]
+
+    const dynamicRoutes = [
+        { path: 'teacher', name: 'teacher' },
+        { path: 'student', name: 'student'},
+        { path: 'role', name: 'role' },
+        { path: 'dict', name: 'dict' },
+        { path: 'user', name: 'user' },
+        { path: 'choosestudent', name: 'choosestudent' },
+        { path: 'mystudent', name: 'mystudent' },
+        { path: 'chooseteacher', name: 'chooseteacher'},
+        { path: 'mychoose', name: 'mychoose'},
+        { path: 'pwd', name: 'pwd'},
+        { path: 'info', name: 'info' }
+    ]
+    let app = []
+    menus.forEach((item,i) => {
+        let up =menus.find((a) => a.name == item)
+        if (up){
+            app.push(rs)
+        }
+    })
+</script>
+</body>
+</html>
